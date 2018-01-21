@@ -8,9 +8,9 @@ This data included both the raw sampled data (folder ../Inertial Signals) and fe
 
 There are 3 types of files:
 
-x: rows of feature measurements
-y: the activity labels corresponding to each row of X.
-subject: the subjects on which each row of X was measured.
+1. x: rows of feature measurements
+1. y: the activity labels corresponding to each row of X.
+1. subject: the subjects on which each row of X was measured.
 
 In addition, to determine which features are required, we look at the list of features:features.txt
 
