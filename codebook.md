@@ -9,8 +9,8 @@ This data included both the raw sampled data (folder ../Inertial Signals) and fe
 There are 3 types of files:
 
 x: rows of feature measurements
-y: the activity labels corresponding to each row of X. Encoded as numbers.
-subject: the subjects on which each row of X was measured. Encoded as numbers.
+y: the activity labels corresponding to each row of X.
+subject: the subjects on which each row of X was measured.
 
 In addition, to determine which features are required, we look at the list of features:features.txt
 
@@ -40,3 +40,4 @@ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the te
 SITTING (value 4): subject was sitting during the test
 STANDING (value 5): subject was standing during the test
 LAYING (value 6): subject was laying down during the test
+
