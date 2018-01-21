@@ -2,8 +2,8 @@
 
 The raw data for this project is accelerometer data collected from the Samsung Galaxy S smartphone, and was provided at:
 
-**Data file:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-**CodeBook:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* **Data file:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* **CodeBook:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 This data included both the raw sampled data (folder ../Inertial Signals) and features based on the raw data. 
 
 ## There are 3 types of files:
@@ -17,8 +17,8 @@ In addition, to determine which features are required, we look at the list of fe
 The encoding from activity labels ids to descriptive names: activity_labels.txt
 
 ## **Data load:**
-*The Y, S and X data is loaded from each of the training and test datasets, directly as their final type.
-*Only the columns of interest from X are loaded, that is the mean() and sd() columns. We determine the columns by examining the feature names (from features.txt) for patterns “-mean()” or “-std()”.
+* The Y, S and X data is loaded from each of the training and test datasets, directly as their final type.
+* Only the columns of interest from X are loaded, that is the mean() and sd() columns. We determine the columns by examining the feature names (from features.txt) for patterns “-mean()” or “-std()”.
 
 ## **Transformation**
 *The activity descriptions are joined to the activity label data (y).
