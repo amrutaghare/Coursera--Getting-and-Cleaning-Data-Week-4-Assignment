@@ -1,4 +1,4 @@
-##**CodeBook:**
+# **CodeBook:**
 
 The raw data for this project is accelerometer data collected from the Samsung Galaxy S smartphone, and was provided at:
 
