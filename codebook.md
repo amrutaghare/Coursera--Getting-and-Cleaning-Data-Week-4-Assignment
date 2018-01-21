@@ -21,9 +21,9 @@ The encoding from activity labels ids to descriptive names: activity_labels.txt
 * Only the columns of interest from X are loaded, that is the mean() and sd() columns. We determine the columns by examining the feature names (from features.txt) for patterns “-mean()” or “-std()”.
 
 ## **Transformation**
-*The activity descriptions are joined to the activity label data (y).
-*The corresponding training and test datasets are merged, and then columns for subject and activitylabel (description) are appended (by row number) to the data.
-*The data is further subsetted to only include the activity, subject, and the mean() features.
+* The activity descriptions are joined to the activity label data (y).
+* The corresponding training and test datasets are merged, and then columns for subject and activitylabel (description) are appended (by row number) to the data.
+* The data is further subsetted to only include the activity, subject, and the mean() features.
 
 ## **Identifiers**
 
